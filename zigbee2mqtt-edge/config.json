@@ -14,8 +14,7 @@
     "aarch64",
     "amd64",
     "armhf",
-    "armv7",
-    "i386"
+    "armv7"
   ],
   "boot": "auto",
   "init": false,
@@ -82,8 +81,7 @@
       "baudrate": "int?",
       "rtscts": "bool?"
     },
-    "watchdog": "str?",
-    "force_onboarding": "bool?"
+    "watchdog": "str?"
   },
-  "image": "ghcr.io/zigbee2mqtt/zigbee2mqtt-edge-{arch}"
+  "image": "zigbee2mqtt/zigbee2mqtt-edge-{arch}"
 }
